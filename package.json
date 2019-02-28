@@ -1,0 +1,31 @@
+{
+  "name": "basic-webpack",
+  "version": "1.0.0",
+  "description": "Basic setup for modern js projects",
+  "main": "index.ts",
+  "license": "MIT",
+  "author": "Lakshmi Narayanan N K",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iamlux/basic-webpack.git"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack -p"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.5.3",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^4.0.0-alpha",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
